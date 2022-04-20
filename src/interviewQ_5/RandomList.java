@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RandomList {
     public static void main(String[] args) {
-        // 5 elemanli arr lisr olustur . 0 dan 20 ye random deger atasin cift sayilarin yerine
+        // 5 elemanli arr list olustur . 0 dan 20 ye random deger atasin cift sayilarin yerine
         // 111 yazdirsin . Cift syi yok ise yok yazsin
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
