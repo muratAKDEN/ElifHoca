@@ -34,5 +34,7 @@ public class CollectionMethodTask {
         Integer min=Collections.min(asd);
         System.out.println(max);// max degerini alir
         System.out.println(min);
+        Collections.replaceAll(asd,min,max);
+        System.out.println(asd);
     }
 }
